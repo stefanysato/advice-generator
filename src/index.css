@@ -3,7 +3,7 @@
 :root {
   font-family: "Manrope", sans-serif;
   font-weight: 800;
-
+  
   --light-cyan: hsl(193, 38%, 86%);
   --neon-green: hsl(150, 100%, 66%);
   --grayish-blue: hsl(217, 19%, 38%);
@@ -30,16 +30,13 @@ body {
 .container {
   background-color: var(--dark-grayish-blue);
   width: 600px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 3rem;
   border-radius: 10px;
-
   position: relative;
-
   margin: auto;
 }
 

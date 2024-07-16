@@ -11,7 +11,7 @@ function AdviceGenerator() {
    }, []);
 
    function randomizeAdvice() {
-      fetch('https://api.adviceslip.com/advice')
+      fetch('https://api.adviceslip.com/advice', {cache: "no-cache"})
          .then(response => response.json())
          .then(data =>
             setData(data.slip)
